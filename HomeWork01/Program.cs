@@ -3,14 +3,16 @@
 456 -> 5
 782 -> 8
 918 -> 1
-
-
-
-Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
-
-6 -> да
-7 -> да
-1 -> нет
 */
 
-Console.WriteLine("Hello, World!");
+
+
+Console.WriteLine("Введите любое трехначное число");
+string number = Console.ReadLine();
+int a = Convert.ToInt32(number);
+
+int b = a / 10;
+int c = b % 10;
+
+Console.WriteLine("Вторая цифра в числе: ");
+Console.WriteLine(c);
