@@ -5,4 +5,35 @@
 7 -> да
 1 -> нет
 */
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Введите число дня недели от 1 до 7");
+string number = Console.ReadLine();
+int a = Convert.ToInt32(number);
+if (a == 1)
+{
+   Console.Write("Сегодня понедельник, не выходной(((");
+}
+else if (a == 2)
+{
+   Console.Write("Сегодня вторник, не выходной(((");
+}
+else if (a == 3)
+{
+   Console.Write("Сегодня среда, не выходной(((");
+}
+else if (a == 4)
+{
+   Console.Write("Сегодня четверг, не выходной(((");
+}
+else if (a == 5)
+{
+   Console.Write("Сегодня пятница, не выходной(((");
+}
+else if (a == 6)
+{
+   Console.Write("Сегодня суббота, ура, выходной!");
+}
+   else if (a == 7)
+{
+   Console.Write("Сегодня воскресенье, ура, выходной!");
+}
+
